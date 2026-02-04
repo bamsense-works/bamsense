@@ -1,0 +1,39 @@
+<svg viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#274c6f"/>
+      <stop offset="50%" style="stop-color:#3a6a9a"/>
+      <stop offset="100%" style="stop-color:#b5465a"/>
+    </linearGradient>
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#274c6f"/>
+      <stop offset="60%" style="stop-color:#4a7caa"/>
+      <stop offset="100%" style="stop-color:#b5465a"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Diamond Icon -->
+  <g transform="translate(15, 10)">
+    <rect x="25" y="25" width="50" height="50" rx="12" 
+          transform="rotate(45 50 50)" 
+          fill="url(#iconGradient)"/>
+    <!-- Inner highlight -->
+    <rect x="33" y="33" width="34" height="34" rx="8" 
+          transform="rotate(45 50 50)" 
+          fill="rgba(255,255,255,0.15)"/>
+  </g>
+  
+  <!-- Text: BAMSense -->
+  <text x="120" y="62" 
+        font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" 
+        font-size="38" 
+        font-weight="800" 
+        fill="#274c6f">BAMSense</text>
+  
+  <!-- Text: Works (accent color) -->
+  <text x="303" y="62" 
+        font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" 
+        font-size="38" 
+        font-weight="800" 
+        fill="#b5465a">Works</text>
+</svg>

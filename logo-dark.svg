@@ -1,0 +1,33 @@
+<svg viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradientDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#274c6f"/>
+      <stop offset="50%" style="stop-color:#3a6a9a"/>
+      <stop offset="100%" style="stop-color:#b5465a"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Diamond Icon -->
+  <g transform="translate(15, 10)">
+    <rect x="25" y="25" width="50" height="50" rx="12" 
+          transform="rotate(45 50 50)" 
+          fill="url(#logoGradientDark)"/>
+    <rect x="33" y="33" width="34" height="34" rx="8" 
+          transform="rotate(45 50 50)" 
+          fill="rgba(255,255,255,0.2)"/>
+  </g>
+  
+  <!-- Text: BAMSense (white for dark backgrounds) -->
+  <text x="120" y="62" 
+        font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" 
+        font-size="38" 
+        font-weight="800" 
+        fill="#ffffff">BAMSense</text>
+  
+  <!-- Text: Works (lighter rose for dark backgrounds) -->
+  <text x="303" y="62" 
+        font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" 
+        font-size="38" 
+        font-weight="800" 
+        fill="#d4738a">Works</text>
+</svg>
